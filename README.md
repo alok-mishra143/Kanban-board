@@ -1,30 +1,59 @@
-# React + TypeScript + Vite
+# Kanban Board 📋
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the Kanban Board project! This project is designed to help you efficiently manage your tasks using a visually appealing Kanban board. It's built with Vite, React, and TypeScript to provide a robust and modern development experience.
 
-Currently, two official plugins are available:
+## Features 🚀
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Intuitive Kanban Board**: Organize your tasks into customizable columns to track their progress.
+- **Drag-and-Drop**: Easily move tasks between columns with a simple drag-and-drop interface.
+- **Responsive Design**: Enjoy a seamless experience on various devices, from desktops to smartphones.
+- **TypeScript Support**: Leverage the power of TypeScript for enhanced code quality and developer productivity.
+- **Vite & React**: Built with Vite for fast development and React for a powerful and flexible user interface.
 
-## Expanding the ESLint configuration
+## Getting Started 🛠️
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Follow these steps to get the Kanban Board up and running on your local machine:
 
-- Configure the top-level `parserOptions` property like this:
+1. **Clone the repository**:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+    ```bash
+    git clone https://github.com/alok-mishra143/Kanban-board.git
+    ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+2. **Navigate to the project folder**:
+
+    ```bash
+    cd Kanban-board
+    ```
+
+3. **Install dependencies**:
+
+    ```bash
+    npm install
+    ```
+
+4. **Run the development server**:
+
+    ```bash
+    npm run dev
+    ```
+
+    Open your browser and go to `http://localhost:5173/` to view the Kanban Board.
+
+## Project Structure 📁
+
+The project follows a straightforward structure:
+
+- **src**: Contains the main source code of the application.
+- **components**: Reusable React components used throughout the project.
+- **icons**: contain the icon that use in project
+- **lib**:  basic function and interface that use in project 
+- **styles**: CSS stylesheets for styling the application.
+
+Feel free to explore and modify the code to suit your needs!
+
+## Contributing 🤝
+
+We welcome contributions to make this Kanban Board even better! If you have ideas for new features, bug fixes, or improvements, please open an issue or submit a pull request.
+
+
