@@ -12,3 +12,9 @@ export const addCol = ({ col, setcol }: addColParams) => {
 export const delcol = ({ id, setcol }: DelcolProps) => {
   setcol((prevCols: Column[]) => prevCols.filter((col) => col.id !== id));
 };
+
+export const updatecol = ({ id, setcol, title }: UpdatecolProps) => {
+  setcol((prevCols: Column[]) =>
+    prevCols.map((col) => (col.id === id ? { ...col, title } : col))
+  );
+};

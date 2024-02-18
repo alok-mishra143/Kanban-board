@@ -16,3 +16,9 @@ interface DelcolProps {
   id: string | number | Date;
   setcol: Dispatch<SetStateAction<Column[]>>;
 }
+
+interface UpdatecolProps {
+  id: string | number | Date;
+  setcol: Dispatch<SetStateAction<Column[]>>;
+  title: string;
+}
