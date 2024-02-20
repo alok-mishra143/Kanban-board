@@ -137,7 +137,7 @@ function ColumnContainer({
           {!editMode && column.title}
           {editMode && (
             <input
-              className="bg-black/30 focus:border-rose-500 border rounded-full outline-none px-2 w-full"
+              className="bg-black   rounded-full outline-none px-2 w-full"
               value={column.title}
               onChange={(e) => updateColumn(column.id, e.target.value)}
               autoFocus
@@ -183,7 +183,7 @@ function ColumnContainer({
       </div>
       {/* Column footer */}
       <button
-        className="flex gap-2 items-center border-t-purple-800 border-2 rounded-lg p-4 hover:bg-mainBackgroundColor hover:text-rose-500 active:bg-black justify-center "
+        className="flex gap-2 items-center border-t-purple-800 border-2 rounded-lg p-4 hover:bg-mainBackgroundColor hover:text-purple-900 active:bg-black justify-center "
         onClick={() => {
           createTask(column.id);
         }}

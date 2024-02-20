@@ -99,8 +99,8 @@ function KanbanBoard() {
       border-2
       border-columnBackgroundColor
       p-4
-      ring-rose-500
-      hover:ring-2
+      ring-purple-950
+      hover:ring-1
       flex
       gap-2
       "
