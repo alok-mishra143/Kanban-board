@@ -10,6 +10,8 @@ interface addColParams {
 interface ColumnContainerprops {
   column: Column;
   setcol: Dispatch<SetStateAction<Column[]>>;
+  setTask: Dispatch<SetStateAction<Column[]>>;
+  Task: Task[];
 }
 
 interface DelcolProps {
@@ -20,5 +22,27 @@ interface DelcolProps {
 interface UpdatecolProps {
   id: string | number | Date;
   setcol: Dispatch<SetStateAction<Column[]>>;
+  title: string;
+}
+
+interface AddTaskProps {
+  colId: string | number | Date;
+  Task: Task[];
+  setTask: Dispatch<SetStateAction<Task[]>>;
+}
+
+interface TaskContainerprops {
+  task: Task;
+  setTask: Dispatch<SetStateAction<Task[]>>;
+}
+
+interface DelTaskProps {
+  id: string | number | Date;
+  setTask: Dispatch<SetStateAction<Column[]>>;
+}
+
+interface EditTaskProps {
+  id: string | number | Date;
+  setTask: Dispatch<SetStateAction<Task[]>>;
   title: string;
 }
