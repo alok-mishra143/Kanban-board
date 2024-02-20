@@ -82,13 +82,13 @@ function ColumnContainer({
       className="
   
   backdrop-blur-sm
-  md:w-[350px]
+  w-[350px]
   h-[500px]
   max-h-[500px]
   rounded-md
   flex
   flex-col
-  sm:w-[250px]
+  
   border-purple-800
   border-[2px]
   "
