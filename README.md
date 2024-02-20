@@ -2,6 +2,9 @@
 
 Welcome to the Kanban Board project! This project is designed to help you efficiently manage your tasks using a visually appealing Kanban board. It's built with Vite, React, and TypeScript to provide a robust and modern development experience.
 
+![image](https://github.com/alok-mishra143/Kanban-board/assets/100504874/e9557b90-ba8f-441d-81dc-97a53b14f835)
+
+
 ## Features 🚀
 
 - **Intuitive Kanban Board**: Organize your tasks into customizable columns to track their progress.
