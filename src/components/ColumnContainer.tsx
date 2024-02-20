@@ -59,10 +59,11 @@ function ColumnContainer({
         ref={setNodeRef}
         style={style}
         className="
-      bg-columnBackgroundColor
-      opacity-40
+      
+      backdrop-blur-xl
+      
       border-2
-      border-pink-500
+      border-purple-800
       w-[350px]
       h-[500px]
       max-h-[500px]
@@ -110,8 +111,6 @@ function ColumnContainer({
       p-3
       font-bold
       border-purple-800
-     
-     
       border-b
       flex
       items-center
@@ -125,7 +124,7 @@ function ColumnContainer({
         flex
         justify-center
         items-center
-        bg-columnBackgroundColor
+    
         px-2
         py-1
         text-sm
@@ -158,7 +157,7 @@ function ColumnContainer({
           className="
         stroke-gray-500
         hover:stroke-white
-        hover:bg-columnBackgroundColor
+      
         rounded
         px-1
         py-2
@@ -183,7 +182,7 @@ function ColumnContainer({
       </div>
       {/* Column footer */}
       <button
-        className="flex gap-2 items-center border-t-purple-800 border-2 rounded-lg p-4 hover:bg-mainBackgroundColor hover:text-purple-900 active:bg-black justify-center "
+        className="flex gap-2 items-center border-t-purple-800 border-[1px] p-4 hover:backdrop-blur-3xl hover:text-purple-300  justify-center "
         onClick={() => {
           createTask(column.id);
         }}
